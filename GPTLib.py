@@ -8,7 +8,6 @@ from langchain.prompts import PromptTemplate
 import pathlib
 import subprocess
 import tempfile
-import ipywidgets as widgets
 import os
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
@@ -16,7 +15,6 @@ import re
 import os
 import openai
 import tiktoken
-import re
 
 
 class GPT():

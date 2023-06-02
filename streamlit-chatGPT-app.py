@@ -56,7 +56,7 @@ def main():
   st.header("Дообучение ChatGPT на документе Google Doc")
   st.subheader("Откройте левую боковую панель и задайте параметры")
 
-  st.sidebar.text_input('Ключ доступа', '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', key='token', on_change=input_calback)
+  st.sidebar.text_input('Ключ доступа', '', key='token', on_change=input_calback)
   st.sidebar.text_input('Данные для обучения (ссылка на гугл документ)', 'https://docs.google.com/document/d/1MuQ02a3Kz6ysDN43SM5YrURS2Mg2trLNrM_TyIElZLQ/edit?usp=sharing', key='doc', on_change=input_calback)
   
   st.sidebar.text_area('Инструкции для модели', 
