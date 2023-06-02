@@ -1,0 +1,7 @@
+langchain
+openai
+chromadb
+streamlit
+tiktoken
+gspread
+oauth2client
